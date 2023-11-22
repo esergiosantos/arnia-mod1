@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+div1 {
+  position: static;
+}
+
+.alinhar {
+  background-color: #0055aa;
+  list-style: none;
+  text-align: center;
+  margin-block: 0;
+}
+
+li.nav {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  margin-right: 10px;
+}

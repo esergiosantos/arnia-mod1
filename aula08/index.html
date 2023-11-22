@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+        <form>
+      <label for="nome">Nome completo:</label><br>
+      <input id="nome" name="nome" placeholder="Digite seu nome..."  class="input-default" required> 
+    </div>
+
+
+    <div>
+        <form>
+          <label for="email">E-mail</label> <br>
+          <input type="email" id="email" name="email" placeholder="Digite seu Email" class="input-default" required>
+        </div>
+
+        <div>
+            <form>
+              <label for="senha">Senha</label> <br>
+              <input type="password" name="senha" name="senha" class="input-default" required>
+            </div>
+               <div>
+                    <form>
+                      <label for="dataNascimento">Data de Nascimento</label> <br>
+                      <input type="date" name="dataNascimento" name="dataNascimento"class="input-default" required>
+                    </div>
+
+                 <div>
+                 <label> Estrangeiro? </label>
+
+                 <input type="radio" name="estrangeiro" value="sim" id="estrangeiroSim">Sim
+                </label>       
+
+                <input type="radio" name="estrangeiro" value="sim" id="estrangeiroSim">Não
+                </label>
+
+                <input type="radio" name="estrangeiro" value="naoSei" id="estrangeiroSim">Não 
+               </label>
+                 </div>
+                 <div>
+                    <input type="checkbox" id="concordo"
+                    name="concorda">
+                    <label for="concorda">Concorda com os termos de uso?</label>
+                </div>
+                <div><label for="foto">Foto</label>
+                <input type="file" id="foto"></div>
+
+                <div><label for="observacoes"> Observações</label><br>
+                <textarea  id="observacoes"   name="observacoes" cols="6" rows="4"></textarea>
+            </div>
+            <div>
+                <label for="profissao"> Profissão:</label><br>
+                <select id="profissao" name="profissao">
+                <option value=""> Escolha uma profissão...</option>
+                <option value="dev"> Desenvolvedor de Sotware</option>
+                <option value="qa"> QA</option>
+                <option value="pm"> Gerente de Projetos</option>
+            </select>    
+            </div>
+            <button type="submit">Cancelar</button>
+            <button type="button" class="button-submit">Cadastrar</button>
+
+            
+
+
+                        
+
+    </form>
+  </body>
+</html>

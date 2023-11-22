@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: rgb(131, 11, 11);
+}
+
+div {
+  background-color: rgb(218, 224, 222);
+  background-position: left;
+  box-shadow: 10px 10px 5px -2px rgb(175, 68, 68);
+}
+
+.alinhamento {
+  padding: 1.25em;
+}
+.largura {
+  width: 400px;
+}
+
+.icone {
+  width: 64px;
+  height: 64px;
+}
+
+.compra {
+  width: 64px;
+  height: 64px;
+}
+
+.itens {
+  width: 24px;
+  height: 24px;
+}
+.cardapios {
+  width: 24px;
+  height: 24px;
+}
+
+a {
+  color: #a10303;
+}
+.voltar {
+  color: #808080;
+}

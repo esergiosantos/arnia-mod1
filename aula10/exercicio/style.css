@@ -1,0 +1,35 @@
+
+.div1 {
+  background-color: #6950a1;
+  top: -5px;
+  width: 1440px;
+  padding: 40px;
+}
+
+
+.div2 {
+  width: 785px;
+  height: 109px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 30px;
+}
+
+.div3 {
+  width: 860px;
+  height: 210px;
+  top: 518px;
+  left: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 40px;
+}
+.h1 {
+  width: 948px;
+  height: 96px;
+  top: 132px;
+  left: 40px;
+  color: white;
+}
