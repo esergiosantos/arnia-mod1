@@ -1,10 +1,10 @@
 const io = require("../IO/io");
 
 let soma = 0;
-let contador = 1;
+let contador = 0;
 
 while (contador <= 20) {
-  io.write(`Digite um número: ${contador}`);
+  io.write(`Digite o numero: ${contador}`);
   let numero = io.readInt();
 
   soma += numero;
