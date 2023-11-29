@@ -1,7 +1,3 @@
-const io = require ("../")
-
-
-
 const io = require("../IO/io");
 let a;
 let b;
