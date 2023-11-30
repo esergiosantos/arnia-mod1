@@ -3,7 +3,7 @@ const io = require("../IO/io");
 
 let iterador = 1;
 while (iterador <= 10) {
-  io.write(`O valor do iterado atual é ${iterador}`);
+  io.write(`O valor do iterador atual é ${iterador}`);
   if (iterador % 2 == 0) {
     io.write(`É par`);
   } else {
