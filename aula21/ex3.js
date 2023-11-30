@@ -4,9 +4,9 @@ const io = require("../IO/io");
 // meses e dias e escreva a idade dessa pessoa expressa apenas em dias.
 // Considerar ano com 365 dias e mês com 30 dias.
 
-let anos = 0;
-let meses = 0;
-let dias = 0;
+let anos;
+let meses;
+let dias;
 
 io.write("Digite a idade em anos: ");
 
@@ -20,4 +20,4 @@ io.write("Digite a idade em dias: ");
 
 dias = io.readInt();
 
-io.write(anos * 365 + meses * 30 + dias);
+io.write("Sua idade em dias é: " + (anos * 365 + meses * 30 + dias));
