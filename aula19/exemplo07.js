@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 const numero1 = 10
 const teste1 = numero1 > 5 //true

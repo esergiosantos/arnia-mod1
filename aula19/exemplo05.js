@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 // Faça um programa que receba o nome de um páis e se o páis for [Brasil] ou [Portugal] mostrea  mensagem> "Este páis fala português"
 

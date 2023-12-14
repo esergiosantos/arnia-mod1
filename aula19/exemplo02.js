@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 // Faça um programa de computador que recebe do usuario um numero inteiro e acuse se este numero é par ou impar
 

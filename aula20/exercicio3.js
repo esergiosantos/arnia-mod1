@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 //Faça um programa para imprimir os números pares menores que 100. Não use comando de decisão
 
 let n = 0;

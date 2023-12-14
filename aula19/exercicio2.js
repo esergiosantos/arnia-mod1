@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 //Faça um programa de computador que receba do usuário 2 números,calcule o produto entre eles e acuse se o produto é maior que 10
 

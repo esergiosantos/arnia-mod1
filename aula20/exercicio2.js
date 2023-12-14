@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 //Faça um programa que receba do usuário 20 números e imprima a média aritmética desses números
 
 let soma = 0;

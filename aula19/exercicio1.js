@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 //Faça um programa de computador que receba do usuário dois números e diga qual é o maior
 

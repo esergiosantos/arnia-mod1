@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 //Faça um programa de computador para calcular as raízes de uma
 //equação do segundo -grau na forma ax^2 + bx + c = 0 sendo o valores de

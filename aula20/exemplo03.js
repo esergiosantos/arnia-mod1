@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 // Programa de computador para escrever Brasil por 15 vezes com while.
 

@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 //Faça um programa de computador para escrever o numero de 1 a 10 e na frente se é impar ou par
 
 let iterador = 1;

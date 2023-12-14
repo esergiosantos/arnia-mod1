@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 io.write("Informe o seu nome:");
 const nome = io.read();

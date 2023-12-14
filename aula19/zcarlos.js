@@ -1,4 +1,5 @@
-const io = require('../IO/io')
+const io = require("../io/io")
+
 io.write('vamos calcular uma equação de segundo grau ax^2 + bx + c = 0')
 io.write('digite o valor de a: ')
 const numero1 = io.readInt()

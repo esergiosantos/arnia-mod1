@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 //Programa de computador passe pór todos os números naturais menores que 100 e escreva no terminal os que forem pares
 

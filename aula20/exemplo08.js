@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 //Programa de computador para calcular a soma dos naturais de 1 a 10.
 

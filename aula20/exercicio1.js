@@ -1,11 +1,4 @@
-const io = require("../IO/io");
-//Faça um programa que recebe do usuário um número inteiro n e uma frase e escreva esta frase n vezes usando while let if else e const 
+const io = require("../io/io")
 
-let n = 0;
-let frase = "Arnia";
-
-while (n < 10) {
-    console.log(frase);
-    n++;
-}
+//Faça um programa que recebe do usuário um número inteiro n e uma frase e escreva esta frase n vezes
 

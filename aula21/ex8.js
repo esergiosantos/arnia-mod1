@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 // Escreva um algoritmo para ler uma temperatura em graus Fahrenheit,
 // calcular e escrever o valor correspondente em graus Celsius (baseado na

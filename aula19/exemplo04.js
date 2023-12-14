@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 // Faça um  programa que receba uma idade e retorne para o usuario a faixa etaria
 

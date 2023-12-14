@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 io.write("Digite um numero maior que 10: ");
 

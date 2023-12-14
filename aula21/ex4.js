@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 // Escreva um algoritmo para ler o número total de eleitores de um
 // município, o número de votos brancos, nulos e válidos. Calcular e escrever
@@ -9,20 +9,21 @@ let brancos = 0;
 let nulos = 0;
 let validos = 0;
 
-io.write("Digite o número de eleitores: ");
-
+io.write("Digite o número total de eleitores: ");
 eleitores = io.readInt();
 
 io.write("Digite o número de votos brancos: ");
-
 brancos = io.readInt();
 
 io.write("Digite o número de votos nulos: ");
-
 nulos = io.readInt();
 
-io.write("Digite o número de votos válidos: ");
+validos = eleitores - brancos - nulos;
 
-validos = io.readInt();
+brancos = brancos / eleitores * 100;
+nulos = nulos / eleitores * 100;
+validos = validos / eleitores * 100;
 
-io.write("O Percentual em relação ao total de eleitores é: " + ((eleitores * 100) / (eleitores + brancos + nulos + validos)));
+io.write("Percentual de votos brancos: " + brancos + "%");
+io.write("Percentual de votos nulos: " + nulos + "%");
+io.write("Percentual de votos válidos: " + validos + "%");

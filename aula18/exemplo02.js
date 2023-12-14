@@ -1,4 +1,5 @@
-const io = require("../IO/io");
+const io = require("../io/io")
+
 // Faça um programa que escreva o nome da pessoa que foi fonrecido pelo usuário //
 
 io.write("Digite o seu nome:"); // = console.log('Digite o seu nome:')

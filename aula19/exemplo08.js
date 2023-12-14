@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 // Receba um numero e informe se ele é igual ou diferente de 10
 

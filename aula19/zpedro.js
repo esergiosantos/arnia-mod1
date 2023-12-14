@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 let a;
 let b;
 let c;

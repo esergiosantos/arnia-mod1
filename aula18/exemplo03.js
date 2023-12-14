@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 // Faça um programa que escreva o dobro de um número que foi fonrcido pelo usuario
 

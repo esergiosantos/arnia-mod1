@@ -1,4 +1,5 @@
-const io = require("../IO/io");
+const io = require("../io/io")
+
 console.log("Teste aula 18");
 
 let texto = "Teste aula 18.1";

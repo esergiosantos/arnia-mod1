@@ -1,4 +1,4 @@
-const io = require("../IO/io");
+const io = require("../io/io")
 
 //Faça um programa de computador que receba do usuário três tamanhos de segmentos de reta em ordem aleatória e acuse se estes segmentos formam ou não os lados de um triângulo. Para isso, um lado deve ser sempre menor que a soma dos outros dois lados.
 
