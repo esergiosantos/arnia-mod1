@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <!-- Importação da biblioteca do MD5 -->
+    <script src="https://cdn.jsdelivr.net/npm/md5-js-tools@1.0.2/lib/md5.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="conteudo">
+      <div>
+    <input id="pesquisa" placeholder="PEsquise por uma cidade..." />
+    <button id="finalizar" onclick="buscarCidade()">
+      <span><i class="fa-solid fa-search"></i></span>
+    </button>
+      </div>
+
+      <div class="caixa" id="caixa">
+        <div class="icon"><i class="fa-solid fa-cloud"></i></div>
+        <div class="info">
+          <div class="temperatura" id="temperatura"><span></span></div>
+          <div class="descricao">
+            <div class="condicao" id="condicao">
+              <div class="local" id="local"></div>
+            </div>
+            <div class="data" id="data"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+      </div>
+  </body>
+</html>
